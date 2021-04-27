@@ -1,0 +1,174 @@
+DEBUG 2021-04-27 02:48:28,885 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-27 02:48:28,893 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-04-27 02:48:28,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DockerTest.Web.Host.Startup.DockerTestWebHostModule, DockerTest.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DockerTest.DockerTestWebCoreModule, DockerTest.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DockerTest.DockerTestApplicationModule, DockerTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DockerTest.DockerTestCoreModule, DockerTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DockerTest.EntityFrameworkCore.DockerTestEntityFrameworkModule, DockerTest.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:28,914 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-04-27 02:48:28,944 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-27 02:48:28,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-27 02:48:28,944 [1    ] o.Configuration.LanguageManagementConfig - Converted DockerTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-27 02:48:28,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-27 02:48:29,160 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DockerTest.EntityFrameworkCore.DockerTestDbContext, DockerTest.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-27 02:48:29,425 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-27 02:48:29,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-27 02:48:29,448 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-27 02:48:29,456 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DockerTest
+DEBUG 2021-04-27 02:48:29,460 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-27 02:48:29,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-04-27 02:48:29,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-04-27 02:48:29,509 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Users.Dto.CreateUserDto
+DEBUG 2021-04-27 02:48:29,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Users.Dto.UserDto
+DEBUG 2021-04-27 02:48:29,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-27 02:48:29,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-27 02:48:29,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.Roles.Dto.PermissionDto
+DEBUG 2021-04-27 02:48:29,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-27 02:48:29,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DockerTest.MultiTenancy.Dto.TenantDto
+WARN  2021-04-27 02:48:30,311 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2021-04-27 02:48:30,419 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.5 initialized 'DockerTestDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-04-27 02:48:31,805 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (95ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2021-04-27 02:48:31,960 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (96ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,055 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,149 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,250 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,345 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,439 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,533 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,628 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,722 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,817 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:32,911 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:33,005 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:33,100 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-04-27 02:48:33,201 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" IS NULL) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-04-27 02:48:33,329 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" IS NULL) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2021-04-27 02:48:33,430 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" IS NULL) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-04-27 02:48:33,583 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-04-27 02:48:33,677 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-04-27 02:48:33,771 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-04-27 02:48:33,902 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2021-04-27 02:48:34,014 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-04-27 02:48:34,121 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (104ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2021-04-27 02:48:34,221 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-04-27 02:48:34,358 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.5 initialized 'DockerTestDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-04-27 02:48:34,471 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (101ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" IS NULL))
+INFO  2021-04-27 02:48:34,617 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.5 initialized 'DockerTestDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-04-27 02:48:34,722 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (93ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" IS NULL)) AND ((a."UserId" IS NULL) AND (a."TenantId" IS NULL))
+INFO  2021-04-27 02:48:34,833 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2021-04-27 02:48:34,936 [1    ] ion.Repositories.FileSystemXmlRepository - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+INFO  2021-04-27 02:48:34,937 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+INFO  2021-04-27 02:48:34,943 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {dbc4c4f7-03a0-4050-ba50-1abd5a65c5c8} with creation date 2021-04-27 02:48:34Z, activation date 2021-04-27 02:48:34Z, and expiration date 2021-07-26 02:48:34Z.
+WARN  2021-04-27 02:48:34,947 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {dbc4c4f7-03a0-4050-ba50-1abd5a65c5c8} may be persisted to storage in unencrypted form.
+INFO  2021-04-27 02:48:34,949 [1    ] ion.Repositories.FileSystemXmlRepository - Writing data to file '/root/.aspnet/DataProtection-Keys/key-dbc4c4f7-03a0-4050-ba50-1abd5a65c5c8.xml'.
+WARN  2021-04-27 02:48:34,969 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
